@@ -58,13 +58,6 @@
                     $password = "";
                     $dbname = "db_13";
                     $connection = mysqli_connect($serverName, $username, $password, $dbname);
-                    $title = mysqli_real_escape_string($connection, $title);
-                    $book_code = mysqli_real_escape_string($connection, $book_code);
-                    $author = mysqli_real_escape_string($connection, $author);
-                    $price = mysqli_real_escape_string($connection, $price);
-                    $page = mysqli_real_escape_string($connection, $page);
-                    $stock = mysqli_real_escape_string($connection, $stock);
-
                     $insertsql = "INSERT INTO books_info(title, book_code, author, price, page, stock)
                         VALUES ('$title', '$book_code', '$author', '$price', '$page', '$stock')";
                     mysqli_query($connection, $insertsql);
