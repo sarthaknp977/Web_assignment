@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(80, 73, 221, 0.762);
+    padding: 1px;
+}
+
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 12px 16px 20px rgba(0, 0, 0, 0.261);
+    height: fit-content;
+}
+
+.container h1 {
+    font-size: 25px;
+    display: inline-block;
+    font-weight: bold;
+    color: rgba(80, 73, 221, 0.762);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container .form {
+    width: 100%;
+}
+
+.container .form .info-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .form .info-container label {
+    width: 12.5%;
+}
+
+.error {
+    width: 25%;
+    text-align: end;
+    text-align: start;
+    color: red;
+    font-size: 14px;
+}
+
+.container .form .info-container input {
+    width: 40%;
+    border: 1px solid rgba(80, 73, 221, 0.762);
+    outline: none;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 100;
+    transition: all 0.5 ease;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.btn {
+    padding: 12px;
+    width: fit-content;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(80, 73, 221, 0.762);
+    color: white;
+}
+
+
+label::after {
+    content: '*';
+    color: red;
+}
