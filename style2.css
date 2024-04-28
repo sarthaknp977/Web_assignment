@@ -80,7 +80,8 @@ body {
 
 
 
-.btn {
+.btn,
+.btn-container button {
     padding: 12px;
     width: fit-content;
     font-weight: bolder;
@@ -88,6 +89,7 @@ body {
     border: none;
     background-color: rgba(80, 73, 221, 0.762);
     color: white;
+    cursor: pointer;
 }
 
 
@@ -96,15 +98,6 @@ body {
 
     color: white;
 
-}
-
-.btn-container button {
-    padding: 12px;
-    width: fit-content;
-    font-weight: bolder;
-    background-color: transparent;
-    border: none;
-    background-color: rgba(80, 73, 221, 0.762);
 }
 
 label::after {
