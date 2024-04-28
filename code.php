@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Details</title>
     <link rel="stylesheet" href="style2.css">
-
 </head>
 
 <body>
@@ -105,8 +104,9 @@
                 <input type="text" placeholder="Enter stock" id="stock" name='stock' value="<?php echo isset($stock) ? $stock : ''; ?>" />
             </div>
             <div class="btn-container">
-                <input class="submit btn" id="submit" type="submit" value="Enter" />
                 <input class="clear btn" id="clear" type="reset" value="Clear" />
+                <button><a class="" href="/Php/PHP_library/display-table.php" target="_blank">View Table</a></button>
+                <input class="submit btn" id="submit" type="submit" value="Enter" />
             </div>
         </form>
     </div>

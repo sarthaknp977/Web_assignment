@@ -91,6 +91,22 @@ body {
 }
 
 
+.btn-container a {
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.btn-container button {
+    padding: 12px;
+    width: fit-content;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    background-color: rgba(80, 73, 221, 0.762);
+}
+
 label::after {
     content: '*';
     color: red;
